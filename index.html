@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ahmad Bajwa - Portfolio</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">Ahmad<span>Bajwa</span></div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#academic-record">Academic Record</a>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h3>Hello, I'm</h3>
+                <h1>M. Ahmad Ali Bajwa</h1>
+                <h3 class="student-id">4606-FOC/BSCS-F22-B</h3><br>
+                <Looking>Studying at International Islamic University Islamabad, currently in 6th semester in BS Computer Science.</p>
+            </div>
+            <div class="profile-img-container">
+                <div class="profile-img" id="profile-img"></div>
+                <div class="decoration"></div>
+            </div>
+        </div>
+    </section>
+    
+
+    
+    <!-- Academic Record Section -->
+    <section class="academic-record" id="academic-record">
+        <h2 class="section-title">Core Computer Science Courses</h2>
+        
+        <table class="courses-table">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Course Title</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CS411</td>
+                    <td>Numerical Computing</td>
+                    <td><div class="grade a">A</div></td>
+                </tr>
+                <tr>
+                    <td>CS374</td>
+                    <td>Computer Networks</td>
+                    <td><div class="grade a">A</div></td>
+                </tr>
+                <tr>
+                    <td>CS242</td>
+                    <td>Introduction to Database System</td>
+                    <td><div class="grade a">A</div></td>
+                </tr>
+                <tr>
+                    <td>CS224</td>
+                    <td>Operating System</td>
+                    <td><div class="grade b">B</div></td>
+                </tr>
+                <tr>
+                    <td>CS213</td>
+                    <td>Design and Analysis of Algorithms</td>
+                    <td><div class="grade b">`B</div></td>
+                </tr>
+                <tr>
+                    <td>CS214</td>
+                    <td>Data Structure and Algorithms</td>
+                    <td><div class="grade b">B</div></td>
+                </tr>
+                <tr>
+                    <td>CS211</td>
+                    <td>Object Oriented Paradigm</td>
+                    <td><div class="grade b-plus">B+</div></td>
+                </tr>
+                <tr>
+                    <td>CS225</td>
+                    <td>Digital Logic and Design</td>
+                    <td><div class="grade b-plus">B+</div></td>
+                </tr>
+                <tr>
+                    <td>CS111</td>
+                    <td>Programming Fundamental</td>
+                    <td><div class="grade c">C</div></td>
+                </tr>
+                <tr>
+                    <td>SE321</td>
+                    <td>Object Oriented Analysis and Design</td>
+                    <td><div class="grade b">B</div></td>
+                </tr>
+                <tr>
+                    <td>SE101</td>
+                    <td>Introduction to Software Engineering</td>
+                    <td><div class="grade b">B</div></td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ahmad Bajwa. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Get the profile image element
+        const profileImg = document.getElementById('profile-img');
+        
+        // Animate profile image on hover
+        profileImg.addEventListener('mouseover', function() {
+            this.style.transform = 'scale(1.05)';
+            this.style.transition = 'transform 0.3s ease';
+        });
+        
+        profileImg.addEventListener('mouseout', function() {
+            this.style.transform = 'scale(1)';
+        });
+    </script>
+</body>
+</html>
